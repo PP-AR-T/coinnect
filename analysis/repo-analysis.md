@@ -20,15 +20,15 @@ It is explicitly focused on HTTPS REST calls (not streaming/WebSocket/FIX).
 - `.github/workflows/rust.yml`: CI runs `cargo build` and `cargo test`.
 
 ## 3. Key files to read first
-1. `/home/runner/work/coinnect/coinnect/README.md`
-2. `/home/runner/work/coinnect/coinnect/Cargo.toml`
-3. `/home/runner/work/coinnect/coinnect/src/exchange.rs`
-4. `/home/runner/work/coinnect/coinnect/src/coinnect.rs`
-5. `/home/runner/work/coinnect/coinnect/src/types.rs`
-6. `/home/runner/work/coinnect/coinnect/src/error.rs`
+1. `README.md`
+2. `Cargo.toml`
+3. `src/exchange.rs`
+4. `src/coinnect.rs`
+5. `src/types.rs`
+6. `src/error.rs`
 7. One representative exchange adapter pair:
-   - `/home/runner/work/coinnect/coinnect/src/kraken/api.rs`
-   - `/home/runner/work/coinnect/coinnect/src/kraken/generic_api.rs`
+   - `src/kraken/api.rs`
+   - `src/kraken/generic_api.rs`
 
 ## 4. Main language/frameworks/dependencies
 - Language: Rust (edition 2018).
